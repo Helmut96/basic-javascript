@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 Konsep - konsep dasar pemprograman
 # Variabel
 # Tipe data
@@ -26,7 +27,57 @@ Konsep - konsep dasar pemprograman
 # Pengenalan pola 
 # Genralisasi 
 # Algorihma 
+------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------
+-> Program
+# Program adalah kumpulan / serangkaian instruksi 
+# instruksi yang kita berikan ke komputer 
+# Program adalah urutan instruksi terstruktur, yang dirancang agar komputer berperilaku dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan
+# intinya adalah instruksi / kumpulan instruksi 
+# instruksi harus sederhana, harus terstruktur dan sama - sama dimengerti oleh kedua belah pihak 
+# instruksinya harus terstruktur dan tidak boleh terkutar, urutan disini sangatt berpengaruh 
+* instruksi untuk komputer 
+# memberi perintah untuk komputer 
+# perintah yang diberikan melalui bahasa pemprograman tertentu 
+# intruksi yang diberikan harus simple dan sederhana 
+* instruksi yang sederhana 
+# melakukan operasi matematika 
+# menampilkan tulisan ke layar 
+# mengubah ukuran, posisi, atau warna dari sebuah pixel yang ada dilayar 
+# Kenapa sederhana ?
+* Perilaku Komputer 
+# komputer tidak begitu pintar 
+# penurut, mengerjakan apa pun yang diinstruksikan, mau instruksinya benar atau salah akan dikerjain  
+# tidak kenal lelah, diberikan satu intruksi dikerjakan sebanyak seribu x pasti dikerjain 
+# berikanlah instruksi yang benar 
+# instruksi pada komputer itu disebut dengan statement 
+# statement perintah untuk komputer dalam bahasa pemprograman tertentu    
+
+-> Pemprograman
+# cara kita untuk memberikan instruksi yang simple dan terstruktur pada komputer 
+# instruksi yang kita berikan harus benar dan masuk akal 
+# instruksi yang kita berikan harus sesuai dengan aturan pada bahasa pemprograman tertentu 
+-------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+-> Bahasa Pemprograman 
+# bahasa pemprograman mulai ada, sejak komputer pertama x ada 
+# bahasa yang dipahami oleh komputer adalah bahasa mesin 
+# cpu memahami bahasa mesin,bahasa yang mendekati bahasa mesin ialah assembly 
+# bahasa tingkat rendah / low level language 
+# bahasa yang mendekati bahasa manusia disebut bahasa tingkat tingu / high level languge 
+# semakin keatas bahasanya mudah untuk ditulis dan dibaca oleh manusia, tapi semakin lambat, kenapa harus diterjemahkan dan dioptimasi ke dalama bahasa mesin 
+# bagaiman menuliskan bahasa tersebut menjadi kode - kode program atau yang dinamkan source code 
+# apapun bahasanya, menuliskan source code untuk diterjemahkan kedalam bahasa mesin 
+* untuk mulai menulis program, source code atau statement ada tiga hal yang harus diperhatikan 
+# Bagaimana menulis source code, nulisnya dimana, menggunakan aplikasi apa, dan gimana nulisnya 
+# Bagaimana source code tadi dikonversi ke bahasa mesin, ini biasnya dikerjakan secara otomatis, tau menkanisme atau konsep dibalik konversi tersebut 
+# bagaimana mengeksekusi source code kita 
+
+-> Menulis source code 
+# bahasa pemprograman ditulis dengan text sederhana atau yang disebut dengan plain text 
+--------------------------------------------------------------------------------
 
 
 
