@@ -1,0 +1,34 @@
+Konsep - konsep dasar pemprograman
+# Variabel
+# Tipe data
+# Penkondisian
+# Pengulangan
+# Object
+# Function
+# Array 
+
+-> Program 
+-> Pemprograman
+-> Bahasa Pemprograman
+
+# gimana cara nulis program, disimpan dimana programnya dan bagaimana menjalankan program itu sendiri 
+
+-> Pemprograman mengajarkan kita untuk teliti, displin dan berpikir abstrak
+# teliti : pada saat menuliskan code tidak boleh salah satu karakterpun, kurang titik, kurang titik koma itu akan jadi masalah 
+# displin : karena tiap - tiap bahasa pemprograman punya aturan yang berbeda - berbeda dalam menuliskan code mereka, jadi harus mengkikuti aturan dari bahasa tersebut
+# abstrak : Menyembunyikan kompleksitas / Kerumitan pada saat memandanng sebuah masalah 
+
+-> Mengubah komputer menjadi alat yang powerful
+# Membuat aplikasi untuk menyelesaikan sebuah masalah 
+
+-> Membentuk pola pikir komputasional 
+# Dekomposisi
+# Pengenalan pola 
+# Genralisasi 
+# Algorihma 
+
+
+
+
+   
+
