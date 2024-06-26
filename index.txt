@@ -66,7 +66,7 @@ Konsep - konsep dasar pemprograman
 # bahasa yang dipahami oleh komputer adalah bahasa mesin 
 # cpu memahami bahasa mesin,bahasa yang mendekati bahasa mesin ialah assembly 
 # bahasa tingkat rendah / low level language 
-# bahasa yang mendekati bahasa manusia disebut bahasa tingkat tingu / high level languge 
+# bahasa yang mendekati bahasa manusia disebut bahasa tingkat tinggi / high level languge 
 # semakin keatas bahasanya mudah untuk ditulis dan dibaca oleh manusia, tapi semakin lambat, kenapa harus diterjemahkan dan dioptimasi ke dalama bahasa mesin 
 # bagaiman menuliskan bahasa tersebut menjadi kode - kode program atau yang dinamkan source code 
 # apapun bahasanya, menuliskan source code untuk diterjemahkan kedalam bahasa mesin 
@@ -78,6 +78,30 @@ Konsep - konsep dasar pemprograman
 -> Menulis source code 
 # bahasa pemprograman ditulis dengan text sederhana atau yang disebut dengan plain text 
 --------------------------------------------------------------------------------
+-> 3 hal penting pada saat membuat program 
+#  bagaimana menuliskan source code yang kita buat 
+#  bagaimana menterjemahkan source kita menjadi bahasa mesin 
+# bagaimana mengeksekusi source code yang telah kita buat 
+
+# ada dua cara menterjemahkan source code yang kita buat kedalam bahasa mesin agar bisa kita jalankan 
+# ada source yang kita compile, dengan sesuatu yang namanya compiler 
+# ada yang harus kita terjemahkan, atau kita interpretasi menggunakn interpreter 
+
+-> Compiler 
+# siap dijalankan oleh user, programnya cenderung lebih cepat, karena sudah teroptimasi kedalam bahasa mesin 
+# source codenya cenderung lebih aman karena yang dilihat oleh user adalah hasil compilenya bukan source codenya, source codenya tetap ada di programernya 
+# tidak lintas platform, tidak lintas sistem operasi, karena begitu dicompile hasil compilenya hanya compatibel untuk sistem operasi tertentu, bahkan ketika sistem operasinya sama cpunya berbeda ada kemungkinan programnya juga tidak jalan, jadi harus dicompile ulang 
+# tidak fleksibel, karena ketika ada kesalahan atau ingin memodifikasi programnya harus melakukan compile ulang, karena compile adalah langkah tambahan setelah ngoding 
+
+-> Interpreter  
+# lintas plaform, tidak peduli sistem operasinya apa atau cpunya apa, asal user punya interpreternya source codenya akan bisa dijalankan, selama user punya browser javascriptnya bisa dijalankan 
+# kodenya lebih fleksibel, karena tidak perlu melakukan compile ulang, mudah untuk dimodifikasi dan mudah untuk diuji, sedangkan kekuranganya adalah user butuh interpreter,
+# lebih lambat, karena setiap kali buka program harus interpretasi dulu menggunakan interpreter 
+# source code mudah diakses oleh orang lain 
+
+-> Hybrid / intermediate language / byte code   
+# Mengabungkan kelebihanya compiler  dan kelebihanya interpreter 
+
 
 
 
