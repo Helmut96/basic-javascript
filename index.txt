@@ -102,6 +102,66 @@ Konsep - konsep dasar pemprograman
 -> Hybrid / intermediate language / byte code   
 # Mengabungkan kelebihanya compiler  dan kelebihanya interpreter 
 
+-> Kenapa belajar javascript 
+# gratis : tidak perlu membeli softwarenya tau licensenya 
+# tidal perlu proses instalasi : karena tiap - tiap browser sudah memiliki javascript didalamnya atau yang disebut engine / interpreter javascript 
+# hanya butuh web browser 
+
+-> Javascript is a high-level, scripting, untyped, and interpreted programming language
+# High level language : bahasanya lebih mudah dimengerti 
+# scripting language : javascript dibuat untuk berinteraksi dengan halaman web, setidaknya tujuan awal diciptakanya, javascript spesipik untuk aplikasi web, 
+javascript adalah sebuah bahasa scripting, bahasa yang tertanam didalam sebuah program yang lebih besar, yang hanya bisa menggunakan bahasa scripting yang hanya program tersebut  
+# untyped : dua kategori bahasa pemprograman, bagaimana mengolah tipe data didalamnya ada yang disebut dengan typed, ada yang disebut untyped
+javascript dikategorikan sebagai bahasa yang untyped / dynamically typed 
+# membuat variable didalam bahasa yang untyped, variablenya bisa diisi oleh tipe data yang berbeda, awal angka terakhir bisa huruf, sedangkan yang typed tidak 
+# jadi javascript memilih kategori untyped memudahkan karena tidak dibingungkan pendeklarasian tipe data, pendefinisian tipe data diawal memiliki keuntungan efisiensi memori, pencegahan logika yang salah      
+# interpreted : javascript merupakan bahasa pemprograman yang harus dijalankan menggunakan interpreted 
+
+# funfunfunction 
+  "easy to learn, hard to master"
+
+-> Javascript bisa apa ?
+-> client side Web Develoment /  front end develoment  : membuat dan mendukung pembuatan aplikasi web dari sisi client 
+# native javascript / Vanilla JavaScript / Javascript biasa / javasciprt yang menggunakan library atau framework 
+# Mengembangkan web dengan bantuan framework dan library: Jqoery, React, ember, backbone dll. itu semua framework dan library digunakan untuk membantu membantu dan mempercepat penulisan javascript 
+
+-> Server side Develoment / back end develoment 
+# pembanguna aplikasi yang berjalan disisi server  
+# dibuat sebuah library yang namanya nodejs yang javascript dapat berjalan diservernya sendiri 
+# express js 
+
+-> Browser Extension / Add-on
+-> Dekstop Applications 
+# Electrron, AppJS
+-> Mobile App Develoment 
+# Jquery Mobile, Cordova / PhoneGap 
+->IoT & Robotics
+# CyclonJs, Johnny-Five
+
+-> JSON (Javascript object notation)
+# Skema atau format data  / pertukaran data 
+# dibuat berdasarakn object pada javascript  
+
+# c++, C#, java, Obj-c yang merupakan bahasa pemprograman yang membuat aplikasi dekstop yang berjalan disebuah aplikasi tertentu 
+
+
+-> Sejarah Javascript 
+# Mocha = LiveScript = javascript = ecmascript 
+# Douglas Crockford 
+
+-> Lingkungan pemgembangan / Develoment Environment 
+# sebuah sistem atau tools dimana nantinya kita akan menuliskan program kita 
+# ada dua cara berinteraksi dengan interpreter javascript yang ada di browser 
+   1. console dev tools yang ada ditiap - tiap browser 
+      - bisa menuliskan perintah javascript atau syntax javascript pada console 
+      - untuk mengetahui error atau kelasahan pada javascript 
+      - untuk melalukan debug  
+   2. dengan menuliskan script  javascriptnya sendiri di halaman HTML 
+      - cara menuliskan ad dua cara  
+         - simpan difile yang sama di dalam file HTMLnya
+         - membuat file javascript terpisah 
+         
+
 
 
 
