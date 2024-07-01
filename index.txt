@@ -161,6 +161,36 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
          - simpan difile yang sama di dalam file HTMLnya
          - membuat file javascript terpisah 
          
+-> Menulis Javascript 
+# internal & eksternal 
+# internal : menuliskan syntax javascript lansung didalam tag script dihalaman / didokumen website 
+# eksternal : membuat file terpisah 
+# menyimpan javascript diakhir : seluruh halaman html diload dahulu ke dalaman memori baru kemudian jalankan javascriptnya 
+# sebuah fungsi console.log : untuk menuliskan sesuatu ke dalam console di browser 
+
+-> Nilai dan tipe data 
+# membaca, memodifikasi, membuat data baru & menghapusnya
+# semua semua data tersimpan kedalam serangkaian bit 
+# bit / binary digit / bilangan biner, adalah satuan terkecil dari data yang ada dikomputer kita
+# nilainya 0 dan 1
+# secara elektronika atau hardware di dalam komputer digit 1 terjadi ketika salah satu komponen komputer namanya transistor dialiri oleh listrik, saat transistor dialiri oleh listrik maka terjadi bit 1 bit 0 ketika trasistor tidak dialiri listrik 
+# 23 bagaimana komputer merepsentasikan 
+# bilangan desimal 0 - 9
+# semua data direpresentasikan dalam bilangan biner 
+# komputer membagi bit - bit tersebut kedalam beberapa potongan 
+# potongan - potongan itu disebut values / nilai 
+# nilai tersebut terbuat dari sekumplan bit, nilai - nilai itu memiliki peran yang berbeda, peran ini yang disebut tipe data / data types 
+# didalam javascript ada enam tipe data 
+  -> number / angka
+  -> string  
+  -> boolean 
+  -> object 
+  -> function 
+  -> undefined
+# peran bit - bit yang ada didalam komputer 
+# membuat atau menggunakan peran tertentu hanya perlu memanggil namanya 
+#  
+
 
 
 
