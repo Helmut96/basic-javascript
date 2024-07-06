@@ -170,7 +170,7 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 
 -> Nilai dan tipe data 
 # membaca, memodifikasi, membuat data baru & menghapusnya
-# semua semua data tersimpan kedalam serangkaian bit 
+# semua data tersimpan kedalam serangkaian bit 
 # bit / binary digit / bilangan biner, adalah satuan terkecil dari data yang ada dikomputer kita
 # nilainya 0 dan 1
 # secara elektronika atau hardware di dalam komputer digit 1 terjadi ketika salah satu komponen komputer namanya transistor dialiri oleh listrik, saat transistor dialiri oleh listrik maka terjadi bit 1 bit 0 ketika trasistor tidak dialiri listrik 
@@ -182,14 +182,23 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # nilai tersebut terbuat dari sekumplan bit, nilai - nilai itu memiliki peran yang berbeda, peran ini yang disebut tipe data / data types 
 # didalam javascript ada enam tipe data 
   -> number / angka
-  -> string  
+  -> string 
   -> boolean 
   -> object 
   -> function 
   -> undefined
 # peran bit - bit yang ada didalam komputer 
-# membuat atau menggunakan peran tertentu hanya perlu memanggil namanya 
-#  
+# membuat atau  menggunakan sebuah nilai yang memiliki peran  hanya perlu memanggil namanya 
+
+# bagaimana cara membuatnya, digunakan untuk apa, gimana cara pakainya 
+
+-> tipe data string dalam javascript 
+# Tipe data string dalam javascript digunakan untuk merepresentasikan data tekstual / plain text
+# untuk menuliskan string pada javascript yang perlu kita lakukan hanya membungkus data atau nilai kita menggunakan tanda '' atau "", fungsinya sama aja 
+# escape character : berfungsi untuk menampilkan sebuah karakter yang diinterpretasikan berbeda dalam sebuah halaman 
+# Concatenation / konkatenasi + sebagai pengabung dua atau lebih string 
+# membandingkan dua buah string 
+# sebuah fungsi pada string : .length : menghitung panjang dari sebuah string  
 
 
 
