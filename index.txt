@@ -198,7 +198,26 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # escape character : berfungsi untuk menampilkan sebuah karakter yang diinterpretasikan berbeda dalam sebuah halaman 
 # Concatenation / konkatenasi + sebagai pengabung dua atau lebih string 
 # membandingkan dua buah string 
-# sebuah fungsi pada string : .length : menghitung panjang dari sebuah string  
+# sebuah fungsi pada string : .length : menghitung panjang dari sebuah string 
+
+-> tipe data angka / number
+# numbers in javascript are double-precision floating point 64-bit formar IEEE 754 values
+# tidak ada integer, yang ada hanya floating point / bilangan pecahan
+# ukuran angka yang ditamoung 64bit 
+# menyimpan angka 2 pangkat 64bit : 18 X 10 pangkat 18
+# angka tersebut tidak bisa dipakai semua 
+# ada beberapa penanda untuk menampung angka angak tertentu 
+# angka tanpa desimal / integer 
+   - tingkat akurasi hanya 15 digit
+# angka dengan desimal 
+  - menyimpan 17 digit dibelakang koma
+  - hati - hati menghitung bilangan pecahan hasilnya tidak terlalu akurat    
+# eksponen
+   - 123e5
+   - 123e-5
+# bilangan negatif 
+  
+# 64 bit tidak bisa dipakai untuk menuliskan bilangan posiotif aja      
 
 
 
