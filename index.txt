@@ -215,11 +215,29 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # eksponen
    - 123e5
    - 123e-5
-# bilangan negatif 
+# bilangan negatif
   
-# 64 bit tidak bisa dipakai untuk menuliskan bilangan posiotif aja      
+# 64 bit tidak bisa dipakai untuk menuliskan bilangan bulat positif aja
+# banyak hal yang bisa digunakan 
+# 1 bit digunakan jika penandanya bilangan negatif 
+# 11 bit digunakan untuk eskponen 
+# sisanya 52bit digunakan untuk angka sebenarnya termasuk untuk menyimpan titik untuk pecahan 
+# jangan pernah mengawali angka dijavascript dengan 0, bilangan dianggap bilangan oktal bukan bilangan desimal 
+# bilangan desimal basis 10 dari 0 - 9 
+# bilangan oktal basis 8 angka dimulai 0 - 7 
+   - 022
+# sama seperti mengawali angka dengan 0x, akan dianggap sebagai bilangan hexadesimal bilangan basis basis 16 di mulai dari 0 - 9 sampai a - f   
+   - 0xff
 
-
+# Angka spesial 
+ - Infinity 
+     2 / 0 : Infinity
+ - -Infinity 
+     -2 / 0 : -Infinity
+ - NaN (NOt a number)
+  - dihasilkan ketika membagi sebuah angka dengan string 
+  - membagi string didalam string ada angka, disini javascript membaca string tersebut sebagai angka dan akan melakukan perhitungan sebagaimana membagi angka 
+     0 / 0 : NaN
 
 
 
