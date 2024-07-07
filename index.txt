@@ -239,6 +239,21 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
   - membagi string didalam string ada angka, disini javascript membaca string tersebut sebagai angka dan akan melakukan perhitungan sebagaimana membagi angka 
      0 / 0 : NaN
 
+-> tipe data boolean 
+# sebuah tipe data yang digunakan untuk merepresentasikan logika true atau false 
+# sebuah konsep yang sudah ada sebelum javascript 
+# boolean ada didalam aljabar 
+# biasanya digunakan pada statement pengkondisian, untuk menentukan aksi yang berbeda dan mengatur alur kendali program 
+# boolen memiliki dua buah nilai true | false 
+# true dihasilkan ketika kondisinya bernilai benar 
+# false dihasilkan ketika kondisinya bernilai salah 
+# tidak hanya angka yang bisa dicek menggunakan boolean, tetapi string juga bisa 
+# nilai - nilai yang ada pada javascript  menyimpan true atau false didalamnya 
+# truthy dan falsy
+
+# undefined : mendeklarasikan sebuah variable tapi mengisikan nilainya 
+# null : adalah nilai kosong yang bisa diberikan kepada sebuah variabel  
+
 
 
    
