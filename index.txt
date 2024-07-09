@@ -251,10 +251,67 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # nilai - nilai yang ada pada javascript  menyimpan true atau false didalamnya 
 # truthy dan falsy
 
-# undefined : mendeklarasikan sebuah variable tapi mengisikan nilainya 
+# undefined : mendeklarasikan sebuah variable tapi tidak mengisikan nilainya 
 # null : adalah nilai kosong yang bisa diberikan kepada sebuah variabel  
 
+->Operator pada javascript 
+# sebuah simbol yang digunakan untuk melakukan operasi
+# Operator 
+   - aritmatika
+   - penugasan
+   - perbandingan
+   - logika
+   - string
+   - operator binary 
+   - operator dapat dibagi berdasarkan operandnya 
 
+
+
+   - kondisional : operator ternary
+   - typeof : unary
+
+# operator binary : membutuhkan 2 operand 
+# unary: membutukan 1 operand
+# ternary: operator yang membutuhkan 3 buah operand 
+
+-> operator artimatika / operator matimatika 
+  +, -, *, /, %
+  % : modulo, modulus, sisa bagi 
+# urutan operasi matematika / operator precedence 
+ - ada operator yang dikerjakan terlebih dahulu terlepas dimana menempatakan didalam sebuah expresi 
+ - Kukabataku, () * / + - 
+
+-> operator penugasan / assigment
+# = digunakan ketika bekerja dengan variabel 
+# x = 10 : menugaskan angka 10 didalam variabel x 
+# masih ada beberapa operator penugasan 
+# +=, -=, *=, /=, %=
+# nilai yang sebelumnya disimpan dalam sebuah variabel tidak akan hilang, akan dilakukan operasi terlebih dahulu 
+
+-> operator perbandingan / comparison 
+# untuk membandinkan dua buah operand 
+# menghasilkan sebuah nilai boolean true atau false 
+# === perbandingan yang strict istilah lainya operator identitas 
+   - tidak hanya membandingkan nilai tetapi juga type datanya 
+
+-> operator logika  
+# operator ini digunakan untuk menentukan logika dari beberapa expresi yang akan digabungkan 
+# &&, ||, !
+
+-> operator string 
+# didalam javascript tanda + memiliki dua fungsi 
+# jika operandny adalah angka dia akan menjadi operator aritmatika 
+# jika operandnya string atau tulisan, akan berubah menjadi operator pengabung string 
+
+-> operator typeof
+# untuk mengetahui type data apa dari nilai yang kita masukkan kedalamnya 
+# typeof(operand)
+# operator unary
+
+-> operator kondisional 
+# operator ternary : membutuhkan tiga operand didalamnya 
+# operator ini digunakan untuk melakukan pengecekkan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika kondisinya bernilai true atau false 
+# (kondisi) ? benar : salah       
 
    
 
