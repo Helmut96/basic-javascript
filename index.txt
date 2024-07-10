@@ -313,5 +313,70 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # operator ini digunakan untuk melakukan pengecekkan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika kondisinya bernilai true atau false 
 # (kondisi) ? benar : salah       
 
+-> Variabel
+# sebuah "tempat / wadah" yang memiliki nama, yang digunakan untuk menyimpan nilai 
+# nilainya macam - macam bisa angka bisa tulisan, boolean
+# deklarasi, inisialisasi, assigment 
+  - deklarasi : mendaftarkan variabel ke dalam lingkup yang sesuai 
+  - inisialisasi : menyediakan memori untuk variabel 
+  - assigment : menetapkan nilai yang spesipik ke dalam variabel 
+# var x; // deklarasi & inisialisasi variable x 
+      - variable tersebut akan didafatarkan pada lingkup yang sesuai, akan dipesan 1 blok memori untuk meyimpan nilai di dalamnya 
+  x = 20 // assigment 
+   - menugaskan angka 20 untuk disimpan kedalam variabel x 
+ # wajib melakukan deklarasi dan inisialisasi 
+# keyword lain untuk mendeklarasikan variabel 
+  - var, let, const memiliki perilaku yang berbeda 
+# ada juga beberapa kata yang tidak boleh digunakan sebagai nama variabel kata tersebut dinamakan keyword atau reserved word 
+# keyword & reserved word kata yang digunakan sebagai bagian dari syntax javascript 
+# shorthand : syntax untuk menyinkat penulisan variable
+# variable scope / lingkup variable : untuk menggunakan variable secara tepat, perlu pemahaman tentang function dan object 
+
+-> popup box / dialog box 
+# sebuah window kecil pada browser kita yang dapat kita munculkan sebagai alat interaksi yang digunakan agar user dapat berdialog dengan halaman web 
+# ada tiga buah pop box. alert, prompt, confirm
+# alert box
+  - fungsi memunculkan window kecil yang ada pesan dan tombol ok 
+  - memberikan pesan sederhana ke user 
+# prompt box
+  - ada nilai yang diambil 
+  - dan mengembalikan nilai
+  - nilai yang dikembalikan apa pun yang diketik oleh user 
+# confirm
+  - digunakan konfirmasi dari user   
+  - mengembalikan nilai   
+  - mengembalikan nilai boolean true | false 
+     - true ketika menekan tombol ok
+     - false ketika menekan tombol cancel 
+  - biasanya digunakan pada penkondisian dan pengulangan 
+  
+-> control flow / alur kendali 
+# di dalam pemprograman ada yang disebut dengan normal flow / alur normal 
+#  apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah tau dari kiri ke kanan 
+# pengulanagn dan pengkondisian 
+# pengulangan / loop / iteration 
+   - sebuah konsep untuk mengerjakan / mengekskusi sebuah statement yang sama lebih dari satu kali / berulang 
+   - syntax pengulangan pada javascript 
+     - for 
+     - while 
+     - do while 
+ # pengkondisian atau percabangan
+   - sebuah keadaan dimana program bisa memilih untuk mengeksekusi statement yang berbeda berdasarakan kondisi yang diberikan
+   - syntax pengkondisian 
+      - if 
+      - if.. else
+      - if.. else if.. else
+      - switch          
+
+-> while 
+# selama kondisi bernilai true lakukan aksi yang ada didalamnya, kalau kondisi bernilai false aksinya tidak akan dilakukan      
+# infinte loop / looping forever : loop tidak akan pernah akan berakhir 
+# looping dihentikan oleh user 
+# 
+
    
+
+
+
+
 
