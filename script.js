@@ -52,6 +52,8 @@ else
 	alert(angka +' adalah bilangan ganjil');
 }
 */
+
+// dihentikan oleh user 
 var ulang = true;
 while(ulang)
 {
