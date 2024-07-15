@@ -10,8 +10,11 @@
 // nilaiAwal++;
 // }
 
-var nomorAngkot = 1;
-while(nomorAngkot <= 10){
-	console.log('Angkot No. ' + nomorAngkot + ' beroperasi dengan baik');
-nomorAngkot++;	
+
+var jmlhAngkot = 10;
+var noAngkot = 1;
+
+while(noAngkot <= jmlhAngkot){
+	console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik');
+noAngkot++;	
 } 

@@ -381,8 +381,49 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 -> for
 # for adalah keyword lain, dapat digunakan untuk melakukan pengulangan selain while  
    
+-> Tabel penelusuran / trace table / dry-run test 
+# untuk mengetahui perubahan variabel yang ada didalam pengulangan 
+# tuliskan nama-nama variabel yang nilainya kemungkinan berubah, setiap loopnya 
 
 
+->Pengkondisian / percabangan 
+# if..else
+# if..else if..else
+  - else if digunakan ketika punya kondisi lain selain if dan else
 
+-> pengulangan dan pengkondisian bersarang 
+# ada pengulangan untuk mencetak baris, ada pengulangan untuk mencetak berapa bintang pada baris tersebut 
+# jumlah bintang yang ada tiap baris sesuai dengan nomor barisnya  
+
+->switch
+# tidak memiliki kondisi yang banyak 
+# kondisi hanya ada 1
+
+-> "ingin menyelesaikan sebuah persoalan jawabanya gak cuma 1 bisa ada kemungkinan banyak, dilihat mana yang lebih efektif daripada yang lain"
+
+-> fUNCTION
+# apa itu function ?, gimana cara bikinya, gimana cara pakainya, perilakunya seperti apa 
+# function adalah kunci utama pada javascript yang membuat javascript sangat powerful , douglas crakford
+#  di bahasa pemprograman lain ada istilah method, class, constructor, module, dijavascript semua hal tersebut bisa dilakukan hanya oleh function 
+# sebuah sub-program / sub routine yang dapat 'dipanggil' di bagian lain pada program 
+# program yang ada didalam program lainya
+# merupakan struktur dasar pembentuk dari javascript / fundemental building block
+# disebut juga sebagai prosedur (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai)
+# untuk dapat menggunakanya, kita harus 'membuat' terlebih dahulu function tersebut, lalu 'memanggilnya'
+# termasuk kedalam first class object 
+
+-> kenapa function ? 
+# reusability (dry : do not repeat yourself)
+  - pengunaan kembali dari kode yang sudah kita buat / dry 
+  - daripada menulis kode program berulang - ulang dengan menggunakan function, cukup menuliskan satu buah blok program atau sub program 
+  cukup sekali, panggil berulang - ulang 
+# Dekomposisi / Abstraksi 
+  - untuk menyembuyikan kompleksitas dari program yang kita buat  
+  - karena dipecah - pecah bagian dari programnya 
+# modularitas 
+  - ketika menyembunyikan kompleksitasnya dengan cara membuat program kita menjadi sub program atau modul modul akan memudahkan kita pada saat akan menelusuri kesalahan, pada saat proses debuging 
+-> kategori function berdasarakan pembuatanya 
+# Built-in Function / function yang dibuatkan oleh javascript 
+# User defined function / function yang kita buat sendiri    
 
 
