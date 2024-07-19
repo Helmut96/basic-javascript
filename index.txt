@@ -426,4 +426,93 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # Built-in Function / function yang dibuatkan oleh javascript 
 # User defined function / function yang kita buat sendiri    
 
+  -> built in function 
+    - Fungsi yang disediakan / 'dibuat' oleh javascript
+    - Kita tinggal 'memanggilnya' saja 
+       - contoh 
+         - alert ();
+         - confirm ();
+         - prompt ();
+     - dan masih banyak yang lain 
+# javascript selalu memulai index selalu dari 0 
+
+
+   -> user defined function 
+    - Fungsi yang dibuat oleh kita sendiri 
+    - menggunakan keyword function 
+    - nama function(optional)
+    - parameter / argument / bahan baku 
+      - disimpan ()
+      - boleh ada atau tidak, jika ada boleh lebih dari satu 
+      - jika lebih satu pisah parameter(,)
+
+    - function body, 'dibungkus' dengan {}      
+    - dapat mengembaliakan nilai (return value) atau tidak mengembalikan nilai
+    # cara buat nya ada dua 
+      - dengan deklarasi / function declaration 
+      - dengan expression / function expression
+     
+     # terkait dengan function 
+     - user-defined function 
+     - function declaration vs function expression 
+     - Parameter / Argument
+     - Return value, kapan boleh ada, kapan boleh gak ada 
+     - scope, lingkup dari function 
+     - refactoring, lebih efektif lagi menuliskan program kita 
+     - Hoisting, perilaku interpreter javascript dalam membaca baris baris program 
+     - Closure, terkait dengan function expression 
+     - Recursion, bagaimana sebuah function memanggil dirinya sendiri 
+
+-> Cara kerja sebuah function 
+  # function yang baik hanya mengerjakan satu hal saja secara spesipik 
+  # blok kode yang dibuat untuk melakukan tugas yang spesipik 
+  # dapat dipangil berulang ulang kali 
+  # Memudahkan kita untuk melakukan penulusuran / bagian mana di dalam program yang error
+  # Reusability / pengunaan ulang dari kode program kita 
+
+->parameter dan argument 
+# material atau bahan baku yang digunakan didalam function 
+# parameter : variabel yang ditulis didalam kurung pada saat function dibuat, digunakan untuk menampung nilai yang dikirimkan saat functionnya dipanggil 
+# argument : nilai yang dikirimkan ke parameter saat fungsi dipanggil 
+# bagaimana jika parameter dan argumentnya tidak sesuai ?
+  - jika parameter lebih sedikit dari argument, maka argument kelebihanya akan diabaikan, karakteristik ini spesipik untuk javascript 
+  - jika parameter lebih banyak dari argument, maka parameter kelebihanya akan diisi dengan nilai default nilai default undefined   
+# arguments 
+  - variabel khusus yang namanya arguments 
+  - array yang berisi nilai yang dikirimkan saat fungsi dipanggil / sudo variabel / variabel semu  
+
+-> Cara penulisan function 
+# Function Declaration
+   - lebih fleksibel (dapat ditulis dimanapun) /  tulis deklarasi function sebelum atau sesudah pemanggilan function 
+   - ini terjadi karena di javascript ada yang namanya hoisting / deklarasi sebuah function pasti disimpan terlebih dahulu didalam memori 
+   - mudah dipahami untuk pemula  
+# Function Expression   
+  - Harus didefinisikan terlebih dahulu sebelum dipanggil 
+  - Lebih powerfull 
+     - sebagai closure
+     - sebagai argumen untuk function yang lain 
+     - IIFE (Immediately Invoked Function Expression)
+
+->Variable Scope
+# bagaimana sebuah variabel dapat diakses dalam program 
+# di dalam bahasa pemprograman ada dua jenis scope / dua jenis lingkup 
+  - block scope 
+  - function scope      
+  
+  -> block scope 
+    - ini digunakan oleh bahasa pemprograman c / java  
+  
+# didalam function bisa mengakses variabel global, diluar tidak bisa akses variabel lokal, tetapi didalam function kita akses variabel global 
+# ketika membuat sebuah argument, argument akan menjadi lokal variabel meskipun tidak menuliskan keyword var 
+
+-> refactoring 
+# sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya 
+# 'baik' :  baik ini relatif bisa beragam maknanya 
+# kenapa ? 
+   - readability : keterbacaan / kemudahan dalam membaca kode program       
+
+
+
+
+
 

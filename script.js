@@ -54,11 +54,20 @@ else
 */
 
 // dihentikan oleh user 
-var ulang = true;
-while(ulang)
-{
-     console.log('hello world');
-     ulang = confirm('lagi?'); 
-}
+// var ulang = true;
+// while(ulang)
+// {
+//      console.log('hello world');
+//      ulang = confirm('lagi?'); 
+// }
 
 // console.log('Hello World')
+
+var a = 6;
+var a = "a";
+var c = 4;
+var b = 6
+var a = c + b;
+var a = 100000;
+var b = 50 / 100 * 100000;
+var c = a - b; 
