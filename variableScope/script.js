@@ -11,10 +11,23 @@
 // test();
 //   console.log(a);
 
-var a = 1;
-function test(a){
-   console.log(a);
+// var a = 1;
+// function test(a){
+//    console.log(a);
+// }
+
+// test(a);
+// console.log(a);
+
+var a = parseInt(prompt('input a value 1'));
+var b = parseInt(prompt('input a value 2'));
+var hasil = tambah();
+
+function tambah{
+      if (a === 1){
+            a = 'Hello World'
+      }
 }
 
-test(a);
-console.log(a);
+console.log(hasil);
+

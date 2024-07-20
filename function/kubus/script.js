@@ -15,17 +15,8 @@ console.log(hasil);
 */
 
 function jumlahDuaBuahKubus(a, b){
-	 var volA;
-	 var volB;
-	 var total;
-
-	 volA = a * a * a;
-	 volB = b * b * b;
-
-	 total = volA + volB;
-
-	 return total;
+	 return a * a * a + b * b * b;
 }
 
 alert(jumlahDuaBuahKubus(8, 3));
-alert(jumlahDuaBuahKubus(10, 15));
+// alert(jumlahDuaBuahKubus(10, 15));

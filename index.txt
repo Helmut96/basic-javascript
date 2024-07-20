@@ -506,10 +506,42 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
 # ketika membuat sebuah argument, argument akan menjadi lokal variabel meskipun tidak menuliskan keyword var 
 
 -> refactoring 
-# sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya 
+# bagaimana cara penulisan kode program kita menjadi lebih efisien 
+# penulisan kode menjadi lebih efisien merupakan salah satu bagian dari sebuah konsep yang dinamakan dengan refactoring 
+# refactoring adalah sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya 
 # 'baik' :  baik ini relatif bisa beragam maknanya 
 # kenapa ? 
-   - readability : keterbacaan / kemudahan dalam membaca kode program       
+   - readability : keterbacaan / kemudahan dalam membaca kode program 
+   - program yang baik adalah program yang tidak hanya mudah dibaca oleh pembuatnya tapi juga oleh orang lain 
+   -  membuat program dilakukan secara kolaboratif dalam sebuah tim  
+   - Dry ( Don't repeat yourself) / erat kaitannya dengan duplikasi kode 
+     - variable yang berlebihan 
+     - efisiensi function, method atau yang lainya 
+  - Testabilitiy 
+    - penulisan kode agar mudah saat dilakukan pengujian 
+  - Performance 
+    - bagaimana menulis kode yang dapat meningkatkan performance dari program 
+      - menggunakan looping dengan baik 
+      - Memilih tipe data yang tepat untuk sebuah nilai 
+      - pengalokasian memori yang efektif dalam bahasa pemprograman tertentu 
+  - Maintainablitiy 
+     - program dapat dikelola atau dikembangkan 
+
+-> Rekursif / rekursi / rekursion 
+# sebuah fungsi yang memanggil dirinya sendiri 
+# fungsi dijalankan ketika mempunyai sebuah input yang dimasukkan ke dalam fungsi / function dan nanti menghasilkan sebuah output, karakteristik dari function 
+# fungsinya harus berakhir dan menghasilkan sebuah nilai 
+# pemangilan secara rekursif, harus ada kondisi berhentinya
+# kondisi berhentinya disebut dangan base case / kondisi akhir dari rekursif yang menghasilkan nilai 
+# contoh lain dari rekursif adalah faktorial 
+# semua looping bisa dibuat rekursif, tapi tidak sebaliknya  
+# implementasi rekursif 
+  - Menggantikan looping 
+  - Deret Fibonaci 
+  - faktorial 
+  - Pencarian dan penulusuran pada struktur data list dan tree 
+  - Bahasa pemprogram yang tidak memilki konsep pengulangan 
+    - haskkel, erlang, prolog                   
 
 
 
