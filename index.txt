@@ -543,8 +543,56 @@ javascript dikategorikan sebagai bahasa yang untyped / dynamically typed
   - Bahasa pemprogram yang tidak memilki konsep pengulangan 
     - haskkel, erlang, prolog                   
 
+-> Array 
+# array sebagai tipe data dan struktur data 
+# "susunan sistematis dari objek - objek yang serupa"
+# array programing / ilmu komputer "tipe data yang digunakan mendeskripsikan kumpulan elemen (nilai atau variabel), yang tiap-tiap elemennya memiliki index"
+# array bisa menampung lebih dari satu nilai 
+
+# Kenapa array ? 
+# mempermudah pengelolaan nilai / value / data 
+  - Penulusuran dan pencarian 
+# efektifitas manajemen memori / tidak perlu membuat banyak variabel
+
+#karakteristik array pada javascript 
+-> array disebut juga variabel jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama 
+# Kumpulan pasangan key dan nilai / key and value pair 
+# key adalah index pada array dengan tipe integer yang dimulai dari 0 
+# array pada javascript bertipe object 
+# Array pada javascript memiliki fungsi / method length untuk menghitung jumlah elemen didalamnya
+# Elemen pada array boleh memiliki tipe data yang berbeda 
+
+# Key and value pair - membuat array
+# array betipe object
+  - jumlah element tidak sama dengan index 
+# Elemen pada array boleh beda tipe data 
+# Array didalam Array - array multidimensi / array bersarang 
+
+# Mengelola isi array 
+# Menulusuri array dengan looping 
+# Method pada array 
+# studi kasus 
 
 
+-> Manipulasi array 
+# Menambah elemen pada array
+# Menghapus elemen pada array 
+# Menampilkan seluruh isi array   
+
+# length : untuk mengetahui jumlah elemen pada array 
+
+# join : Menggabungkan seluruh isi array dan mengubahnya jadi sebuah string 
+
+# push, pop, shift, unshift
+digunakan untuk menambah atau menghapus elemen array 
+
+# push : menambah elemen array diakhir arraynya 
+# pop : menghilangkan elemen terakhir dari sebuah array 
 
 
+# unshift : shift
+- bekerja untuk elemen pertama pada array  
 
+# unshift : menambah elemen baru diawal arraynya
+
+# shift : menghilangakan elemen pertama diawal array   
